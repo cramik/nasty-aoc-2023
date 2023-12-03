@@ -1,0 +1,1 @@
+I honestly used cyberchef find/replace and excel to do this part. "[A-Za-z]"->'', "\n(\d)\n"->"$1$1", copy to excel, =SUM(A1:A1000)
