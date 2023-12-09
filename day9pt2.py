@@ -9,7 +9,7 @@ for history in histories:
 		for i in range(1,len(differences[-1])):
 			new.append(differences[-1][i]-differences[-1][i-1])
 		differences.append(new)
-	#add zero to left bottom
+	#add zero to bottom
 	differences[-1]+=[0]
 	#Calculate up
 	for i in range(1,len(differences)):
